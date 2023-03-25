@@ -1,0 +1,218 @@
++*In[2]:*+
+[source, ipython3]
+----
+print("Hello World!")
+----
+
+
++*Out[2]:*+
+----
+Hello World!
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+Introduction to python programming:
+
+first we will start from VARIABLES
+What the variable is when we assign some values it can be integer float character
+----
+
+
++*In[4]:*+
+[source, ipython3]
+----
+x=5
+y=9
+z=x+y
+print(z)
+----
+
+
++*Out[4]:*+
+----
+14
+----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+name1='faraz'
+name2='shahid'
+print(name1.title())
+
+----
+
+
++*Out[7]:*+
+----
+Faraz
+----
+
+
++*In[9]:*+
+[source, ipython3]
+----
+fullname=f"fullname of mine is, {name1} {name2}"
+print(fullname.title())
+----
+
+
++*Out[9]:*+
+----
+Fullname Of Mine Is, Faraz Shahid
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+#DATATYPES
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+In this we will study 5 datatypes 
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+1.Strings(str)--->it can be use in single double quote
+2.Numbers---->integer(int)it convert the number into a whole no.to integer it removes after decimal
+and float(float)-->float convert a string into floating(real no.)
+3.List-------->list(sequence of item)
+4.Tuples------->tuple
+5.Dictionaries------>dict
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+Classification of datatype:
+mutable--> which we can edit and alter====>flexible in nature
+immutable--> which we cannot edit==> not flexible or fixed in nature
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+name1='faraz'
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+name2="kritika"
+----
+
+
++*In[15]:*+
+[source, ipython3]
+----
+print((name1 + name2).title())
+----
+
+
++*Out[15]:*+
+----
+Farazshahid
+----
+
+
++*In[17]:*+
+[source, ipython3]
+----
+type(name2)
+----
+
+
++*Out[17]:*+
+----str----
+
+
++*In[19]:*+
+[source, ipython3]
+----
+print(name1.upper())
+----
+
+
++*Out[19]:*+
+----
+FARAZ
+----
+
+
++*In[20]:*+
+[source, ipython3]
+----
+print(name2.lower())
+----
+
+
++*Out[20]:*+
+----
+shahid
+----
+
+
++*In[26]:*+
+[source, ipython3]
+----
+print("my favourite books are:\npython\nmaths\nc++\njava")
+----
+
+
++*Out[26]:*+
+----
+my favourite books are:
+python
+maths
+c++
+java
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
